@@ -48,11 +48,13 @@ body {
   border-color: aliceblue;
   border-width: 1px;
   margin-bottom: 15px;
+  padding: 15px;
+  font-size: 18px;
 }
 
 .container .column > input.input::placeholder {
   font-size: 18px;
-  padding-left: 15px;
+  color: #5d576b;
 }
 
 .container .column > button.btn-truth {
@@ -65,4 +67,14 @@ body {
   color: aliceblue;
   font-size: 18px;
   font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.container .column > .question {
+  color: #99e1d9;
+  font-size: 24px;
+}
+.container .column > .answer {
+  color: aliceblue;
+  font-size: 32px;
 }
