@@ -68,6 +68,12 @@ body {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 20px;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+.container .column > button.btn-truth:hover {
+  filter: brightness(1.2);
 }
 
 .container .column > .question {

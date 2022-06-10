@@ -23,6 +23,11 @@ function onhandleAnswer(event) {
     "Be positive!🤩",
     "Speachless 👽",
   ];
+
+  if (InputQuestion.value === "") {
+    alert("Write please, I can't listen your thought 😂! ");
+    return;
+  }
   Question.innerText = InputQuestion.value;
   InputQuestion.value = "";
 
